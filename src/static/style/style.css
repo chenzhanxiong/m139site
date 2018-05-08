@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Microsoft Yahei';
+	box-sizing: border-box;
+	font-size: 0.24rem;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{
+	border: none !important;
+	position: relative;
+	overflow: hidden;
+}
+[v-cloak]{
+	display: none;
+}
+.s-modu-head{
+	height: 0.75rem;
+	padding: 0.25rem 0.26rem 0;
+	background-color: #fff;
+	line-height: 0.5rem;
+	overflow: hidden;
+}
+.s-modu-title{
+	font-size: 0.32rem;
+	line-height: 0.5rem;
+	height: 0.4rem;
+	color: #ff993e;
+	padding-left: 0.5rem;
+	float: left;
+	font-weight: bold;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: 0.4rem;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.modu-head-list{
+	float: left;
+	font-size: 0.26rem;
+	margin-left: 0.3rem;
+}
+.modu-head-list span{
+	padding: 0 0.1rem;
+	position: relative;
+	color: #808080;
+	cursor: pointer;
+	font-size: 0.26rem;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+.modu-head-list span:before{
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(0,-50%);
+	width: 1px;
+	height: 0.18rem;
+	background-color: #ececec;
+}
+.modu-head-list span:last-child:before{
+	display: none;
+}
+.modu-head-list span.active{
+	color: #ff993e;
+}
+.s-modu-more{
+	float: right;
+	font-size: 0.26rem;
+	color: #808080;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets{
+	bottom:0.1rem
+}
+.swiper-pagination-bullet{
+	width: 0.08rem;
+	height: 0.08rem;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+	margin: 0 0.04rem;
+}
+.swiper-slide a{
+	display: block;
+}
+.swiper-slide img{
+	display: block;
+	width: 100%;
+}
+
+img:before{
+	content: "";
+	background: url(../../../static/images/three-dots.svg) center center no-repeat;
+	background-size: 1rem;
+	background-color: #fff;
+	position: absolute;
+	left: -0.02rem;
+	top: -0.02rem;
+	right: -0.02rem;
+	bottom: -0.02rem;
+	
+}
